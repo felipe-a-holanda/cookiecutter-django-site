@@ -1,0 +1,1 @@
+# Cookiecutter django Site

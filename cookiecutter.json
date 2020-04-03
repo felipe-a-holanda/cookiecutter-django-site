@@ -1,4 +1,9 @@
 {
     "project_name": "Project Name",
-    "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}"
+    "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+    "domain_name": "{{ cookiecutter.project_slug }}.com",
+    
+    "server_user": "django",
+    "home_path": "/home/{{ cookiecutter.server_user }}",
+    "project_path": "{{ cookiecutter.home_path }}/{{ cookiecutter.domain_name}}"
 }

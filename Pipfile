@@ -17,7 +17,7 @@ flake8 = "==3.7.9"
 flake8-isort = "==2.8.0"
 pytest-cookies = "==0.5.1"
 pytest-instafail = "==0.4.1.post0"
-Django = "==3.0.5"
+Django = "==3.1.6"
 PyYAML = "==5.3"
 
 [requires]

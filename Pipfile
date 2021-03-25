@@ -18,7 +18,7 @@ flake8-isort = "==2.8.0"
 pytest-cookies = "==0.5.1"
 pytest-instafail = "==0.4.1.post0"
 Django = "==3.0.5"
-PyYAML = "==5.3"
+PyYAML = "==5.4"
 
 [requires]
 python_version = "3.8"
